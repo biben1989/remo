@@ -2356,7 +2356,10 @@ p {
       border-color: #0067f4;
       background-color: #0067f4;
       color: #fff; }
-
+.single-contact-info{
+  max-width: 250px;
+  margin: 30px auto;
+}
 /*===========================
        10.SLIDER css 
 ===========================*/
@@ -3273,7 +3276,7 @@ p.form-message.success, p.form-message.error {
   height: 45px;
   line-height: 45px;
   border-radius: 5px;
-  background-color: #0067f4;
+  background-color: #ed8b00;
   text-align: center;
   z-index: 99;
   -webkit-transition: all 0.3s ease-out 0s;
