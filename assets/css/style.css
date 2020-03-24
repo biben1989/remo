@@ -2491,7 +2491,7 @@ p {
 .carousel .carousel-control-prev, .carousel .carousel-control-next {
   top: 50%;
   font-size: 32px;
-  color: #fff;
+  color: #ed8b00;
   bottom: auto;
   left: 60px;
   right: auto;
@@ -2506,7 +2506,7 @@ p {
   height: 48px;
   line-height: 48px;
   text-align: center;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgb(237, 139, 0);
   border-radius: 5px; }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .carousel .carousel-control-prev, .carousel .carousel-control-next {
