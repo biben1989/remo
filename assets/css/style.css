@@ -2343,9 +2343,9 @@ p {
       color: #121212;
       opacity: 0.7; }
       .navbar-area.sticky .navbar .navbar-nav .nav-item a::before {
-        background: -webkit-linear-gradient(left, rgba(18, 18, 18, 0) 0%, #121212 100%);
-        background: -o-linear-gradient(left, rgba(18, 18, 18, 0) 0%, #121212 100%);
-        background: linear-gradient(to right, rgba(18, 18, 18, 0) 0%, #121212 100%); }
+        background: -webkit-linear-gradient(left, rgba(18, 18, 18, 0) 0%, #ed8b00 100%);
+        background: -o-linear-gradient(left, rgba(18, 18, 18, 0) 0%, #ed8b00 100%);
+        background: linear-gradient(to right, rgba(18, 18, 18, 0) 0%, #ed8b00 100%); }
     .navbar-area.sticky .navbar .navbar-nav .nav-item.active, .navbar-area.sticky .navbar .navbar-nav .nav-item:hover {
       color: #121212;
       opacity: 1; }
@@ -2560,7 +2560,7 @@ p {
         font-size: 36px;
         line-height: 45px; } }
     .single-features .features-title-icon .features-title a:hover {
-      color: #0067f4; }
+      color: #ed8b00; }
   .single-features .features-title-icon .features-icon {
     position: relative;
     display: inline-block; }
