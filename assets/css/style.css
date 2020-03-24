@@ -2231,7 +2231,7 @@ p {
         line-height: 24px;
         font-weight: 700;
         padding: 26px 0;
-        color: #fff;
+        color: #121212;
         text-transform: uppercase;
         position: relative;
         opacity: 0.8;
@@ -2255,9 +2255,9 @@ p {
           content: '';
           width: 32px;
           height: 4px;
-          background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.1) 0%, white 100%);
-          background: -o-linear-gradient(left, rgba(255, 255, 255, 0.1) 0%, white 100%);
-          background: linear-gradient(to right, rgba(255, 255, 255, 0.1) 0%, white 100%);
+          background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.1) 0%, #ed8b00 100%);
+          background: -o-linear-gradient(left, rgba(255, 255, 255, 0.1) 0%, #ed8b00 100%);
+          background: linear-gradient(to right, rgba(255, 255, 255, 0.1) 0%, #ed8b00 100%);
           left: 50%;
           margin: 0 2px;
           bottom: 14px;
@@ -2279,7 +2279,7 @@ p {
               display: none; } }
       .navbar-area .navbar .navbar-nav .nav-item.active > a, .navbar-area .navbar .navbar-nav .nav-item:hover > a {
         opacity: 1;
-        color: #fff; }
+        color: #121212; }
         @media only screen and (min-width: 768px) and (max-width: 991px) {
           .navbar-area .navbar .navbar-nav .nav-item.active > a, .navbar-area .navbar .navbar-nav .nav-item:hover > a {
             color: #121212; } }
@@ -2309,7 +2309,7 @@ p {
         padding: 0px 16px;
         font-size: 16px;
         font-weight: 700;
-        color: #fff;
+        color: #121212;
         -webkit-transition: all 0.3s ease-out 0s;
         -moz-transition: all 0.3s ease-out 0s;
         -ms-transition: all 0.3s ease-out 0s;
@@ -2364,11 +2364,11 @@ p {
        10.SLIDER css 
 ===========================*/
 .carousel-item {
-  background-color: #ed8b00;
+  background-color: #fff;
   position: relative; }
   .carousel-item::before {
     position: absolute;
-    content: '';
+
     width: 33%;
     height: 100%;
     background: -webkit-linear-gradient(rgba(10, 9, 8, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
@@ -2417,7 +2417,7 @@ p {
   .slider-content .title {
     font-size: 88px;
     line-height: 96px;
-    color: #fff;
+    color: #121212;
     font-weight: 700; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .slider-content .title {
@@ -2432,7 +2432,7 @@ p {
         font-size: 34px;
         line-height: 45px; } }
   .slider-content .text {
-    color: #fff;
+    color: #121212;
     font-size: 16px;
     line-height: 24px;
     margin-top: 16px; }
@@ -2445,12 +2445,14 @@ p {
         .slider-content .slider-btn li {
           margin: 16px 3px 0; } }
       .slider-content .slider-btn li a.rounded-one {
-        background-color: #fff;
-        border-color: #fff;
-        color: #000}
+        background-color: #ed8b00;
+        border-color: #ed8b00;
+        color: #fff}
         .slider-content .slider-btn li a.rounded-one:hover {
           background-color: transparent;
-          color: #fff; }
+          border-color:#ed8b00;
+
+          color: #121212; }
       .slider-content .slider-btn li a.rounded-two {
         border-color: #fff; }
         .slider-content .slider-btn li a.rounded-two:hover {
@@ -3289,7 +3291,7 @@ p.form-message.success, p.form-message.error {
     color: #fff;
     background-color: #0067f4; }
 .navbar-brand{
-  color: #fff;
+  color: #121212;
   font-size: 40px;
   text-transform: uppercase;
   font-weight: bold;
