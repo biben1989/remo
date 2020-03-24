@@ -2510,7 +2510,7 @@ p {
   border-radius: 5px; }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .carousel .carousel-control-prev, .carousel .carousel-control-next {
-      left: 30px; } }
+      display: none } }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .carousel .carousel-control-prev, .carousel .carousel-control-next {
       display: none; } }
