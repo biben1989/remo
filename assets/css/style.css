@@ -2368,7 +2368,7 @@ p {
   position: relative; }
   .carousel-item.slider-one {
     background-image: url(../images/Untitled-1.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;  }
   .carousel-item::before {
