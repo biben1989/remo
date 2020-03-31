@@ -2366,6 +2366,11 @@ p {
 .carousel-item {
   background-color: #fff;
   position: relative; }
+  .carousel-item.slider-one {
+    background-image: url(../images/Untitled-1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;  }
   .carousel-item::before {
     position: absolute;
 
@@ -2965,8 +2970,8 @@ p {
     border-top: 1px solid #e9ecef;
     padding-top: 50px; }
     .single-testimonial .testimonial-author .author-info .author-image img {
-      border-radius: 50%;
-      max-width: 100px;
+      max-height: 150px;
+      height: 100%;
        }
 .testimonial-author.d-sm-flex {
   justify-content: center;

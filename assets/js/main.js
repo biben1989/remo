@@ -147,7 +147,7 @@ $(function() {
        autoplay: true,
         autoplaySpeed: 5000,
         speed: 800,
-        slidesToShow: 4,
+        slidesToShow: 3,
     });
     
     
